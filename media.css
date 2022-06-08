@@ -1,0 +1,75 @@
+
+@media (max-width:1200px){
+    .cards {
+        flex-direction: column;
+        
+        
+    
+    }
+}
+
+@media (max-width:960px){
+    .cards {
+        flex-direction: column;
+        
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .box-contact {
+        
+        width: 100%;
+        
+    }
+}
+
+@media (min-width:576px){
+    .burgerIcon {
+        right: 50px;
+    }
+
+    .move-burger {
+        right: 250px;
+    
+    }
+    }
+
+
+@media (max-width:576px){
+    .text-main h1 {
+        font-size: 3em;
+    }
+
+    .text-main p {
+        font-size:1.3em !important;
+       
+    }
+
+    .sidebar {
+        position: fixed;
+       width: 100%;
+    }
+
+    .burgerIcon {
+        right: 20px;
+    }
+    
+    .burgerIcon i {
+        
+        font-size: 2em;
+    }
+
+   
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    
+    }
+
+    .social-list{
+        margin-bottom: 10px;
+    }
+}
